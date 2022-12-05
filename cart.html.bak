@@ -21,14 +21,9 @@
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
-          <a class="navbar-brand logo_h" href="index.html">
-		    <h2 style="color:white;padding-top:12px;">C A R T E L</h2>
-		  </a>
-		  <div>
-			<a href="cart.html">
-			  <i style="color:white;padding:20px;" class="fa fa-shopping-cart fa-2x" aria-hidden="true">
-			    <span style="font-size:20px;color:white;">1</span>
-			  </i>
+          <div>
+			<a href="menu.html">
+			  <i style="color:white;padding:20px 0;" class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
 			</a>
 		  </div>
         </div>
@@ -62,57 +57,6 @@
   </section>
   <!--================About Section End =================-->
   
-  <!--================Food menu categories start =================-->
-  <section>
-    <div class="container">
-	<div class="blog_right_sidebar">
-	  <aside class="single_sidebar_widget tag_cloud_widget">
-		<div class="blog_right_sidebar">
-		  <aside class="search_widget">
-			  <form action="#">
-				<div class="form-group">
-				  <div class="input-group">
-					<input type="text" class="form-control" placeholder="Search Keyword">
-					<div class="input-group-append">
-					  <button class="btn" type="button"><i class="ti-search"></i></button>
-					</div>
-				  </div>
-				</div>
-			  </form>
-		  </aside>
-		</div>
-		  <ul class="list">
-			  <li>
-				  <a href="#">PROJECT</a>
-			  </li>
-			  <li>
-				  <a href="#">LOVE</a>
-			  </li>
-			  <li>
-				  <a href="#">TECHNOLOGY</a>
-			  </li>
-			  <li>
-				  <a href="#">TRAVEL</a>
-			  </li>
-			  <li>
-				  <a href="#">RESTAURANT</a>
-			  </li>
-			  <li>
-				  <a href="#">LIFE STYLE</a>
-			  </li>
-			  <li>
-				  <a href="#">DESIGN</a>
-			  </li>
-			  <li>
-				  <a href="#">ILLUSTRATION</a>
-			  </li>
-		  </ul>
-	  </aside>
-	</div>
-	</div>
-  </section>
-  <!--================Food menu categories end =================-->
-  
   <!--================Food menu section start =================-->  
   <section>
     <div class="container">
@@ -124,15 +68,17 @@
         <div class="col-lg-6 mb-2">
           <div class="blog_item_img media align-items-center food-card">
             <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
-			<a href="#" class="blog_item_date"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+			<div href="#" class="blog_item_date2">
+			  <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+			  <span style="margin: 0 16px;padding: 0 20px;border-left:solid 2px;border-right:solid 2px;">7</span>
+			  <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+			</div>
             <div class="media-body">
-			  <a href="details.html">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Roasted Marrow</h4>
                 <h3 class="price-tag">&#8381;32</h3>
               </div>
-			  </a>
-              <p>Whales and darkness moving form cattle</p>
+              <p>Сумма: &#8381;64</p>
             </div>
           </div>
         </div>
@@ -140,21 +86,11 @@
         <div class="col-lg-6 mb-2">
           <div class="blog_item_img media align-items-center food-card">
             <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
-			<a href="#" class="blog_item_date"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
-            <div class="media-body">
-              <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">&#8381;32</h3>
-              </div>
-              <p>Whales and darkness moving form cattle</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 mb-2">
-          <div class="blog_item_img media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
-			<a href="#" class="blog_item_date"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+			<div href="#" class="blog_item_date2">
+			  <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+			  <span style="margin: 0 16px;padding: 0 20px;border-left:solid 2px;border-right:solid 2px;">7</span>
+			  <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+			</div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Roasted Marrow</h4>
@@ -168,7 +104,11 @@
         <div class="col-lg-6 mb-2">
           <div class="blog_item_img media align-items-center food-card">
             <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
-			<a href="#" class="blog_item_date"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+			<div href="#" class="blog_item_date2">
+			  <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+			  <span style="margin: 0 16px;padding: 0 20px;border-left:solid 2px;border-right:solid 2px;">7</span>
+			  <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+			</div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Roasted Marrow</h4>
@@ -182,7 +122,11 @@
         <div class="col-lg-6 mb-2">
           <div class="blog_item_img media align-items-center food-card">
             <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
-			<a href="#" class="blog_item_date"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+			<div href="#" class="blog_item_date2">
+			  <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+			  <span style="margin: 0 16px;padding: 0 20px;border-left:solid 2px;border-right:solid 2px;">7</span>
+			  <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+			</div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Roasted Marrow</h4>
@@ -196,7 +140,11 @@
         <div class="col-lg-6 mb-2">
           <div class="blog_item_img media align-items-center food-card">
             <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
-			<a href="#" class="blog_item_date"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+			<div href="#" class="blog_item_date2">
+			  <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+			  <span style="margin: 0 16px;padding: 0 20px;border-left:solid 2px;border-right:solid 2px;">7</span>
+			  <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+			</div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Roasted Marrow</h4>
@@ -210,7 +158,11 @@
         <div class="col-lg-6 mb-2">
           <div class="blog_item_img media align-items-center food-card">
             <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
-			<a href="#" class="blog_item_date"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+			<div href="#" class="blog_item_date2">
+			  <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+			  <span style="margin: 0 16px;padding: 0 20px;border-left:solid 2px;border-right:solid 2px;">7</span>
+			  <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+			</div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Roasted Marrow</h4>
@@ -224,7 +176,29 @@
         <div class="col-lg-6 mb-2">
           <div class="blog_item_img media align-items-center food-card">
             <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
-			<a href="#" class="blog_item_date"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></a>
+			<div href="#" class="blog_item_date2">
+			  <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+			  <span style="margin: 0 16px;padding: 0 20px;border-left:solid 2px;border-right:solid 2px;">7</span>
+			  <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+			</div>
+            <div class="media-body">
+              <div class="d-flex justify-content-between food-card-title">
+                <h4>Roasted Marrow</h4>
+                <h3 class="price-tag">&#8381;32</h3>
+              </div>
+              <p>Whales and darkness moving form cattle</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-2">
+          <div class="blog_item_img media align-items-center food-card">
+            <img class="mr-3 mr-sm-4" src="img/home/food1.png" alt="">
+			<div href="#" class="blog_item_date2">
+			  <i class="fa fa-minus fa-lg" aria-hidden="true"></i>
+			  <span style="margin: 0 16px;padding: 0 20px;border-left:solid 2px;border-right:solid 2px;">7</span>
+			  <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+			</div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Roasted Marrow</h4>
@@ -237,117 +211,68 @@
       </div>
     </div>
   </section>
-  <!--================Food menu section end =================-->  
+  <!--================Food menu section end =================-->
 
-  <!--================Offer Section Start =================-->
+  <!--================Reservation section start =================-->  
   <section class="bg-lightGray section-padding">
     <div class="container">
-      <div class="row no-gutters">
-        <div class="col-sm">
-          <img class="card-img rounded-0" src="img/home/offer-img.png" alt="">
-        </div>
-        <div class="col-sm">
-          <div class="offer-card offer-card-position">
-            <h3>Italian Pizza Offer</h3>
-            <h2>50% OFF</h2>
-            <a class="button" href="#">Read More</a>
+      <div class="row align-items-center">
+        <div class="col-md-6 col-xl-5 mb-4 mb-md-0">
+          <div class="section-intro">
+            <h4 class="intro-title">Reservation</h4>
+            <h2 class="mb-3">Get experience from sneaky</h2>
           </div>
+          <p>Him given and midst tree form seas she'd saw give evening one every make hath moveth you're appear female heaven had signs own days saw they're have let midst given him given and midst tree. Form seas she'd saw give evening</p>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--================Offer Section End =================-->
+        <div class="col-md-6 offset-xl-2 col-xl-5">
+          <div class="search-wrapper">
+            <h3>Book A Table</h3>
 
-  <!--================Featured Section Start =================-->
-  <section class="section-margin mb-lg-100">
-    <div class="container">
-      <div class="section-intro mb-75px">
-        <h4 class="intro-title">Featured Food</h4>
-		<h2>Fresh taste and great price</h2>
-      </div>
-      <div class="owl-carousel owl-theme featured-carousel">
-        <div class="featured-item">
-          <img class="card-img rounded-0" src="img/home/featured1.png" alt="">
-          <div class="item-body">
-            <a href="#">
-              <h3>Mountain Mike Pizza</h3>
-            </a>
-            <p>Whales and darkness moving</p>
-            <div class="d-flex justify-content-between">
-              <ul class="rating-star">
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-              </ul>
-              <h3 class="price-tag">&#8381;35</h3>
-            </div>
-          </div>
-        </div>
-        <div class="featured-item">
-          <img class="card-img rounded-0" src="img/home/featured2.png" alt="">
-          <div class="item-body">
-            <a href="#">
-              <h3>Patatas Bravas</h3>
-            </a>
-            <p>Whales and darkness moving</p>
-            <div class="d-flex justify-content-between">
-              <ul class="rating-star">
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-              </ul>
-              <h3 class="price-tag">&#8381;30</h3>
-            </div>
-          </div>
-        </div>
-        <div class="featured-item">
-          <img class="card-img rounded-0" src="img/home/featured3.png" alt="">
-          <div class="item-body">
-            <a href="#">
-              <h3>Pulled Sandwich</h3>
-            </a>
-            <p>Whales and darkness moving</p>
-            <div class="d-flex justify-content-between">
-              <ul class="rating-star">
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-              </ul>
-              <h3 class="price-tag">&#8381;20</h3>
-            </div>
-          </div>
-        </div>
-        <div class="featured-item">
-          <img class="card-img rounded-0" src="img/home/featured1.png" alt="">
-          <div class="item-body">
-            <a href="#">
-              <h3>Mountain Mike Pizza</h3>
-            </a>
-            <p>Whales and darkness moving</p>
-            <div class="d-flex justify-content-between">
-              <ul class="rating-star">
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-              </ul>
-              <h3 class="price-tag">$35</h3>
-            </div>
+            <form class="search-form" action="#">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Имя">
+                  <div class="input-group-append">
+                    <span class="input-group-text"><i class="ti-user"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Адрес">
+                  <div class="input-group-append">
+                    <span class="input-group-text"><i class="ti-email"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Номер Телефона">
+                  <div class="input-group-append">
+                    <span class="input-group-text"><i class="ti-headphone-alt"></i></span>
+                  </div>
+                </div>
+              </div>
+			  <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Комментарий к заказу">
+                  <div class="input-group-append">
+                    <span class="input-group-text"><i class="ti-notepad"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group form-group-position">
+                <button class="button border-0" type="submit">Отправить заказ</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--================Featured Section End =================-->
+  <!--================Reservation section end =================-->
   
-  <!-- ================ start footer Area ================= -->
+  <!-- ================ Start footer Area ================= -->
   <footer class="cta-area text-center">
 	<div class="container">
       <p>Some Trendy And Popular Courses Offerd</p>
