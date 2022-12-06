@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="vendors/Magnific-Popup/magnific-popup.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="add-to-homescreen/style/addtohomescreen.css">
+  <script src="add-to-homescreen/src/addtohomescreen.js"></script>
+  <script>
+    addToHomescreen();
+  </script>
 </head>
 <body>
 	
