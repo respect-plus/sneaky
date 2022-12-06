@@ -390,8 +390,8 @@ h4,.h4{
 		cursor:pointer
 	}
 	.navbar .container{
-		padding-left:5px;
-		padding-right:5px
+		padding-left:15px;
+		padding-right:15px
 	}
 	.nav{
 		padding:0px 0px
